@@ -21,11 +21,11 @@ can be used exactly as a drop in replacement for
 Cover trees are described in two papers, for which PDF copies are included
 in the `references` directory:
 
-A. Beygelzimer, S. Kakade, & J. Langford (2006) Cover Trees for Nearest Neighbor,
-23rd International Conference on Machine Learning
-
-D. R. Karger & M. Ruhl (2002) Finding Nearest Neighbors in Growth-restricted Metrics,
+[1] D. R. Karger & M. Ruhl (2002) Finding Nearest Neighbors in Growth-restricted Metrics,
 34th Symposium on the Theory of Computing.
+
+[2] A. Beygelzimer, S. Kakade, & J. Langford (2006) Cover Trees for Nearest Neighbor,
+23rd International Conference on Machine Learning
 
 (both originate from [this](http://hunch.net/~jl/projects/cover_tree/cover_tree.html) page)
 
