@@ -1,14 +1,18 @@
-# Copyright Patrick Varilly 2012
+#
+# Copyright 2023 Jack Featherstone
 # Released under the scipy license
 #
-# Based on PyCoverTree (http://github.com/emanuele/PyCoverTree), as
-# modified by Emanuele Olivetti, license as follows:
-#
-# File: covertree.py
-# Date of creation: 05/04/07
+# Previous History:
+# Modified: 03/13/12
+# Copyright (c) 2012, Patrick Varilly
+# Created: 05/04/07
 # Copyright (c) 2007, Thomas Kollar <tkollar@csail.mit.edu>
 # Copyright (c) 2011, Nil Geisweiller <ngeiswei@gmail.com>
 # All rights reserved.
+#
+#
+# Based on PyCoverTree (http://github.com/emanuele/PyCoverTree), as
+# modified by Emanuele Olivetti, license as follows:
 #
 # This is a class for the cover tree nearest neighbor algorithm.  For
 # more information please refer to the technical report entitled "Fast
@@ -17,7 +21,7 @@
 #
 # If you use this code in your research, kindly refer to the technical
 # report.
-
+#
 # I have rewritten the code to mimic the API of Anne M. Archibald's
 # scipy.spatial.kdtree
 

@@ -1,8 +1,22 @@
-## Cover Tree
+# Cover Tree
 
 This is a Python implementation of cover trees, a data structure for finding
 nearest neighbors in a general metric space (e.g., a 3D box with periodic
 boundary conditions).
+
+Updated for Python 3.7 from [Patrick Varilly's code](https://github.com/patvarilly/CoverTree).
+
+
+The implementation here owes a great deal to [PyCoverTree](http://github.com/emanuele/PyCoverTree),
+by Thomas Kollar, Nil Geisweiller, Emanuele Olivetti.
+
+The API follows that of Anne M. Archibald's KD-tree implementation for scipy;
+the default metric has been set to euclidean distance, so the `CoverTree` class
+can be used exactly as a drop in replacement for 
+[scipy.spatial.KDTree](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.KDTree.html).
+
+
+## References
 
 Cover trees are described in two papers, for which PDF copies are included
 in the `references` directory:
@@ -15,12 +29,3 @@ D. R. Karger & M. Ruhl (2002) Finding Nearest Neighbors in Growth-restricted Met
 
 (both originate from [this](http://hunch.net/~jl/projects/cover_tree/cover_tree.html) page)
 
-
-The implementation here owes a great deal to PyCoverTree, by Thomas Kollar,
-Nil Geisweiller, Emanuele Olivetti, which can be found here:
-
-http://github.com/emanuele/PyCoverTree
-
-The API follows that of Anne M. Archibald's KD-tree implementation for scipy
-(scipy.spatial.kdtree).  Other than specifying a distance function in the
-constructor, this module can be used as a drop-in replacement for kdtree.
